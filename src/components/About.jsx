@@ -112,8 +112,7 @@ const About = () => {
                                     >
                                         <div className="w-[320px] h-[320px] rounded-full overflow-hidden border border-gray-100 bg-white shadow-sm flex items-center justify-center">
                                             <img
-                                                src="/food-sequence/frame_119_delay-0.066s.png"
-                                                alt="Signature Dish"
+src={`${import.meta.env.BASE_URL}food-sequence/frame_119_delay-0.066s.png`}                                                alt="Signature Dish"
                                                 className="w-full h-full object-cover"
                                                 style={{
                                                     objectPosition: 'center 40%',

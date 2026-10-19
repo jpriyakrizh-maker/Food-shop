@@ -65,8 +65,7 @@ const FloatingPlate = () => {
             boxShadow: '0 40px 100px -20px rgba(0,0,0,0.35)',
             backgroundColor: 'white' // Ensure white plate
         }}>
-                    <img src="/food-sequence/frame_119_delay-0.066s.png" alt="Signature Noodle Dish" style={{
-            width: '100%',
+<img src={`${import.meta.env.BASE_URL}food-sequence/frame_119_delay-0.066s.png`} alt="Signature Noodle Dish" style={{            width: '100%',
             height: '100%',
             objectFit: 'cover',
             objectPosition: 'center 40%',
